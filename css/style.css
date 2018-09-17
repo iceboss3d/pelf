@@ -200,12 +200,35 @@ input.form-control {
     border-left: 0px solid #28323E;
     border-top: 0px solid #28323E;
     border-radius: 0px;
-    width: 75%;
+    width: 100%;
 }
 input.form-control:focus {
     background: #f3f3f3;
     border: 0px 0px 1px 0px;
 }
 .page-title {
+    height: 82vh;
     padding-top: 100px;
+    padding-bottom: 50px;
+}
+.page-content {
+    background-color: #f3f3f3;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+@media (max-width: 415px) {
+    .page-title {
+        padding-top: 100px;
+    }
+    .page-title h1 {
+        font-size: 45px;
+    }
+}
+@media (max-width: 320px) {
+    .page-title {
+        padding-top: 100px;
+    }
+    .page-title h1 {
+        font-size: 36px;
+    }
 }
