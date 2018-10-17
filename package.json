@@ -1,0 +1,24 @@
+{
+  "name": "pelf",
+  "version": "1.0.0",
+  "description": "A crowd investing application",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iceboss3d/pelf.git"
+  },
+  "author": "Brass and Books Ltd.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iceboss3d/pelf/issues"
+  },
+  "homepage": "https://github.com/iceboss3d/pelf#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+ 
