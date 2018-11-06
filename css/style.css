@@ -1,0 +1,238 @@
+main {
+    
+    background-color: #d1dabd;
+}
+.bg-light {
+    background: transparent;
+}
+.navbar-nav {
+    margin: 40px;
+}
+.btn-primary {
+    background-color: #AEBD7B;
+    border: 0px #AEBD7B;
+    border-radius: 0px;
+    color: #28323e;
+}
+.btn-primary:hover {
+    background-color: #b3c28a;
+    border-radius: 2px;
+    color: #28323e;
+}
+.btn-secondary {
+    background-color: #28323E;
+    border: 0px #28323E;
+    border-radius: 0px;
+    color: #f3f3f3;
+}
+.btn-secondary:hover {
+    background-color: #28323E;
+    border: 0px #28323E;
+    border-radius: 0px;
+    color: #f3f3f3;
+}
+section {
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+.companies {
+    padding: 15px;
+    display: flex;
+    /*flex-direction: row;
+    justify-content: space-between;*/
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+.companies ::-webkit-scrollbar {
+    display: none;
+}
+.companies .card {
+    flex: 0 0 auto;
+}
+.card-body {
+    background-color: #28323e;
+    color: #f3f3f3;
+}
+.body2 {
+    background-color: #28323e;
+    color: #f3f3f3;
+}
+.card-img-top {
+    height: 12rem;
+    object-fit: cover;
+}
+.card {
+    margin: 5px;
+}
+.notice {
+    margin-top: 10px;
+    font-size: 0.75rem;
+}
+a.link-secondary {
+    color: #28323E;
+    text-decoration: underline;
+}
+a.link-primary {
+    color: #f3f3f3;
+    text-decoration: underline;
+}
+.angel {
+    background-color: #28323E;
+    color: #f3f3f3;
+}
+.min-req {
+    background-color: #f3f3f3;
+    color: #28323E;
+    width: 100%;
+    padding: 10px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.min-req-item {
+    font-size: 1.5rem;
+}
+h3.item-title {
+    font-size: 1rem;
+    font-weight: 200;
+}
+.testimonial {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.testimonial .test-container {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 20vh;
+    padding: 10px;
+    border: 1px solid #28323E;
+}
+.testimonial .test-test {
+    padding: 10px;
+}
+p.test-text {
+    text-align: center;
+    font-size: 2em;
+}
+@media (max-width: 414px) {
+    p.test-text {
+        font-size: 1.5em;
+    }
+    p.test-name {
+        font-size: 1em;
+    }
+    .testimonial .test-container {
+        flex-wrap: wrap;
+        height: 40vh;
+    }
+    .testimonial {
+        height: 30vh;
+    }
+    .about-area p {
+        font-size: 0.5em;
+    }
+    .agreement-area p {
+        font-size: 0.5em;
+    }
+    input.form-control {
+        width: 100%;
+    }
+}
+p.test-name {
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.5em;
+}
+section.footer {
+    background-color: #AEBD7B;
+    width: 100%;
+    height: auto;
+    color: #28323E;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.social-area {
+    font-size: 1.5rem;
+    
+}
+.about-area p {
+    font-size: 0.75em;
+}
+.agreement-area p {
+    font-size: 0.75em;
+}
+a.nav-link {
+    color: #28323E;
+}
+a.nav-link:hover {
+    text-decoration-line: underline;
+}
+.modal-content {
+    background-color: #f3f3f3;
+    border-radius: 0px;
+    border: 0px solid;
+}
+.modal-header {
+    border-bottom: 0px solid;
+    background-color: #28323E;
+    border-radius: 0px;
+}
+.modal-body {
+    background-color: #d1dabd;
+}
+.primary-text {
+    color: #f3f3f3;
+}
+.close {
+    color: #f3f3f3;
+}
+input.form-control {
+    background: transparent;
+    color: #28323E;
+    border-bottom: 0.5px solid #28323E;
+    border-right: 0px solid #28323E;
+    border-left: 0px solid #28323E;
+    border-top: 0px solid #28323E;
+    border-radius: 0px;
+    width: 100%;
+}
+input.form-control:focus {
+    background: #f3f3f3;
+    border: 0px 0px 1px 0px;
+}
+.page-title {
+    height: 82vh;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.page-content {
+    background-color: #f3f3f3;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+@media (max-width: 415px) {
+    .page-title {
+        padding-top: 100px;
+    }
+    .page-title h1 {
+        font-size: 45px;
+    }
+}
+@media (max-width: 320px) {
+    .page-title {
+        padding-top: 100px;
+    }
+    .page-title h1 {
+        font-size: 36px;
+
+    }
+    .page-menu {
+        display: none;
+    }
+}
